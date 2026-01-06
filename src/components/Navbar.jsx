@@ -13,7 +13,6 @@ const Navbar = () => {
             </Link>
           </div>
 
-          {/* Liens de navigation - Desktop */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               <Link href="/" className="text-vibe-white hover:text-vibe-orange transition-colors px-3 py-2 text-sm font-medium">Home</Link>
@@ -22,14 +21,12 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Bouton CTA - Contact */}
           <div className="hidden md:block">
             <Link href="/contact" className="bg-vibe-orange hover:bg-vibe-orange-hover text-vibe-white px-6 py-2 rounded-full text-sm font-bold transition-all transform hover:scale-105">
               Contactez-nous
             </Link>
           </div>
 
-          {/* Menu Mobile (Simplifié pour l'énoncé) */}
           <div className="md:hidden flex items-center">
              <Link href="/contact" className="bg-vibe-orange text-vibe-white px-4 py-2 rounded-lg text-xs font-bold">
               Contact
