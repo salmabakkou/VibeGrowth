@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="shrink-0">
             <Link href="/" className="text-2xl font-bold text-vibe-white flex items-center gap-2">
               <span className="text-vibe-orange">Next</span>Vibe
             </Link>
