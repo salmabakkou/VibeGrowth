@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* Définition de votre palette personnalisée dans le thème v4 */
+@theme {
+  /* Couleurs de base */
+  --color-vibe-black: #0F0F0F;
+  --color-vibe-card: #1A1A1A;
+  --color-vibe-border: #2D2D2D;
+  --color-vibe-white: #F0F0F0;
+  --color-vibe-gray: #B0B0B0;
+
+  /* Palette Orange */
+  --color-vibe-orange: #FF6B35;
+  --color-vibe-orange-hover: #FFA726;
+  --color-vibe-orange-dark: #E65100;
+}
+
+/* Application du style par défaut */
+body {
+  background-color: var(--color-vibe-black);
+  color: var(--color-vibe-white);
+  font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+  margin: 0;
+}
