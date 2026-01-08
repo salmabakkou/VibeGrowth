@@ -16,7 +16,7 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-8">
           <Link href="/" className="text-vibe-gray hover:text-vibe-orange transition-colors">Accueil</Link>
           <Link href="/services" className="text-vibe-gray hover:text-vibe-orange transition-colors">Services</Link>
-          <Link href="/a-propos" className="text-vibe-gray hover:text-vibe-orange transition-colors">À Propos</Link>
+          <Link href="/about" className="text-vibe-gray hover:text-vibe-orange transition-colors">À Propos</Link>
           <Link href="/contact" className="bg-vibe-orange text-vibe-white px-6 py-2 rounded-full font-bold hover:bg-vibe-orange-hover transition-all">
             Contact
           </Link>
