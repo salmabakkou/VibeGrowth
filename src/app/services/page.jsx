@@ -57,7 +57,7 @@ export default function ServicesPage() {
   ];
 
   return (
-    <main className="min-h-screen bg-vibe-black pt-28 pb-20 px-6">
+    <main className="min-h-screen bg-vibe-black  pt-28 pb-20 px-6">
       <div className="max-w-7xl mx-auto">
         
         <div className="max-w-3xl mb-16">

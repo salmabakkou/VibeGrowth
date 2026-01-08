@@ -4,7 +4,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-vibe-black text-vibe-white overflow-x-hidden">
       
-      <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 px-6">
+      <section className="relative pt-4 pb-4 md:pt-2 md:pb-32 px-6">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-4xl pointer-events-none">
           <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-vibe-orange/10 blur-[120px] rounded-full"></div>
           <div className="absolute bottom-[20%] right-[-10%] w-[40%] h-[40%] bg-vibe-orange/5 blur-[100px] rounded-full"></div>
