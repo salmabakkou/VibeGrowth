@@ -49,7 +49,6 @@ const Footer = () => {
 
         </div>
 
-        {/* Copyright */}
         <div className="border-t border-vibe-border mt-16 pt-8 text-center">
           <p className="text-vibe-gray text-xs">
             © 2026 <span className="text-vibe-white font-medium">NextVibe Studio</span>. Tous droits réservés.

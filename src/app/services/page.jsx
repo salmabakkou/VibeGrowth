@@ -60,7 +60,6 @@ export default function ServicesPage() {
     <main className="min-h-screen bg-vibe-black pt-28 pb-20 px-6">
       <div className="max-w-7xl mx-auto">
         
-        {/* En-tête de section */}
         <div className="max-w-3xl mb-16">
           <h2 className="text-vibe-orange font-bold uppercase tracking-widest text-sm mb-4">Notre Expertise</h2>
           <h1 className="text-4xl md:text-6xl font-extrabold text-vibe-white leading-tight">
@@ -72,22 +71,19 @@ export default function ServicesPage() {
           </p>
         </div>
 
-        {/* Grille des cartes de services */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div 
               key={index} 
               className="group relative bg-vibe-card border border-vibe-border p-10 rounded-[2.5rem] overflow-hidden transition-all duration-500 hover:border-vibe-orange/40 hover:shadow-2xl hover:shadow-vibe-orange/10"
             >
-              {/* Effet de lueur d'arrière-plan (Glow) */}
+
               <div className="absolute -inset-px bg-linear-to-br from-vibe-orange/20 to-transparent opacity-0 group-hover:opacity-100 blur-2xl transition-opacity duration-500" />
 
-              {/* Conteneur Icône */}
               <div className="relative z-10 w-16 h-16 mb-8 rounded-2xl bg-vibe-black border border-vibe-border flex items-center justify-center text-vibe-white group-hover:text-vibe-orange group-hover:border-vibe-orange group-hover:scale-110 transition-all duration-300">
                 {service.icon}
               </div>
 
-              {/* Contenu texte */}
               <h3 className="relative z-10 text-2xl font-bold text-vibe-white mb-4">
                 {service.title}
               </h3>
@@ -95,7 +91,6 @@ export default function ServicesPage() {
                 {service.description}
               </p>
 
-              {/* Décoration subtile en bas de carte */}
               <div className="absolute bottom-0 left-0 h-1 w-0 bg-vibe-orange group-hover:w-full transition-all duration-500" />
             </div>
           ))}
